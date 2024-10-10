@@ -3,9 +3,16 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
   },
   "author": "",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "child_process": "^1.0.2",
+    "express": "^4.21.1",
+    "nodemon": "^3.1.7",
+    "simple-git": "^3.27.0"
+  }
 }
